@@ -182,8 +182,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #23160d;
-  padding: 20px 0;
-  height: 90px;
+  padding: 6px 0;
+  height: 60px;
 }
 
 #header #logo {
