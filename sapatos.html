@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="demo5 no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Pellegrini</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css"/>
+		
+		<!-- Edit Below -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	    <script type="text/javascript" src="js/jquery.flipping_gallery.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/flipping_gallery.css" />
+	    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	    <link rel="stylesheet" type="text/css" href="css/cssGaleria.css" />
+	    <link href="favicon.ico" rel="img/favicon.ico">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+
+
+
+	</head>
+	<body class="demo5" style="background:black">
+	
+
+		 <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Header 1</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li class="menu-has-children"><a>Sobre nós</a>
+            <ul>
+              <li><a href="#">Processo de fabricação</a></li>
+              <li><a href="#">Empresa</a></li>
+            </ul>
+          </li>
+          <li><a href="#portfolio">Diferencial Pellegrini</a></li>
+          <li><a>Sapatos</a>
+            <ul>
+              <li class="menu-has-children"><a>Clássico</a>
+                <ul>
+                  <li><a href="#">Social</a></li>
+                  <li><a href="#">Semi-Social</a></li>
+                </ul>
+              </li>
+              <li class="menu-has-children"><a>Casual</a>
+                <ul>
+                  <li><a href="#">Mocasin</a></li>
+                  <li><a href="#">Driver</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Esportivos</a></li>
+              <li><a href="#">Outros</a></li>
+            </ul>
+          </li>
+          <li><a href="#team">Serviços</a></li>
+          <li class="menu-has-children"><a href="">Legado Pellegrini</a></li>
+          <li><a href="#contact">Instituto</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+
+
+
+	
+	<div class="main">
+    <div class="page_container">
+      
+      <div class="gallery">
+        <a href="#" data-caption="Trekking in Chhomrong, Himalayas, Nepal"><img src="img/portfolio-1.jpg"></a>
+        <a href="#" data-caption="Ghandruk, getting a good feel of the local"><img src="img/portfolio-2.jpg"></a>
+        <a href="#" data-caption="This was a thriller!"><img src="img/portfolio-3.jpg"></a>
+        <a href="#" data-caption="You can always find a decent coffee shop, even in the Himalayas!"><img src="img/portfolio-4.jpg"></a>
+        <a href="#" data-caption="Beautiful People, Beautiful Country"><img src="img/portfolio-5.jpg"></a>
+        <a href="#" data-caption="Trekking in Chhomrong, Himalayas, Nepal"><img src="img/portfolio-6.jpg"></a>
+        <a href="#" data-caption="Ghandruk, getting a good feel of the local"><img src="img/portfolio-7.jpg"></a>
+        <a href="#" data-caption="This was a thriller!"><img src="img/portfolio-8.jpg"></a>
+        <a href="#" data-caption="You can always find a decent coffee shop, even in the Himalayas!"><img src="img/portfolio-4.jpg"></a>
+        <a href="#" data-caption="Beautiful People, Beautiful Country"><img src="img/portfolio-5.jpg"></a>
+      </div>
+      
+      <div class="navigation">
+        <a href="#" class="btn prev">Previous</a>
+        <a href="#" class="btn next">Next</a>
+      </div>
+    </div>
+	</div>
+	<script type="text/javascript">
+	  $(document).ready( function() {
+	    $(".gallery").flipping_gallery({
+	      enableScroll: true
+	    });
+	    
+	    $(".next").click(function() {
+	      $(".gallery").flipForward();
+	      return false;
+	    });
+	    $(".prev").click(function() {
+	      $(".gallery").flipBackward();
+	      return false;
+	    });
+	  });
+    
+  </script>
+		
+	</body>
+</html>

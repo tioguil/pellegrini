@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #header {
     height: 80px;
-  }	
+  } 
   #header #logo h1 {
     font-size: 26px;
   }
@@ -861,4 +861,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+
+/* SLIDE*/
+
+#gallery-wrapper{
+        height: 400px; width: 400px; text-align: center;
+}
+.kSlideshowWrapper, .kSlideshowItemDiv{
+        width: 400px;
+        height: 267px;
+}
+.kThumbnailsInnerWrapper{
+        height: 80px;
+        width: 324px;
+}
+.kThumbnailsWrapper{
+        width: 324px;
+        height: 80px;
+        margin: 10px auto 0 auto;
+}
+.kThumbnailsPage{
+        width: 324px;
+        text-align: left;
+}
+.kThumbnailsPage img{
+        padding: 1px;
+        border: 1px solid black;
+        margin: 2px;
+}
+.kThumbnailsPage .selectedThumbnail{
+        border-color: #aaaaff;
+}
+.kSlideshowItemDiv img{
+        z-index: 400;
 }
