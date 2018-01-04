@@ -867,11 +867,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* SLIDE*/
 
 #gallery-wrapper{
-        height: 400px; width: 400px; text-align: center;
+        height: 1024px; width: 724px; text-align: center;
+
 }
 .kSlideshowWrapper, .kSlideshowItemDiv{
-        width: 400px;
-        height: 267px;
+        width: 1024px;
+        height: 724px;
+        
 }
 .kThumbnailsInnerWrapper{
         height: 80px;
@@ -895,5 +897,15 @@ body.mobile-nav-active #mobile-nav-toggle {
         border-color: #aaaaff;
 }
 .kSlideshowItemDiv img{
-        z-index: 400;
+        width: 100%;
+        height: 100%;
 }
+.centro{
+  text-align: center
+}
+
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
