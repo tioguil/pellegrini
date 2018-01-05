@@ -498,8 +498,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 60px 0;
 }
 
-
-
 #about .about-title {
   color: #fff;
   font-weight: 700;
@@ -514,6 +512,42 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-text:last-child {
   margin-bottom: 0;
 }
+/* Sapatos Sociais              
+-------------------------------*/
+
+#sapatoSociais{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/sapatoSocial/background.jpg") fixed center center;
+  background-size: cover;
+  padding: 50px 0 60px 0;
+}
+
+#sapatoSociais .sapatoSociais-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#sapatoSociais .sapatoSociais-text {
+  line-height: 26px;
+  color: #fff;
+}
+
+#sapatoSociais .sapatoSociais-text:last-child {
+  margin-bottom: 0;
+}
+
+#sapatoSociais .thumbs img{
+  cursor: pointer;
+}
+
+#sapatoSociais img.active{
+  border-style: double;
+  border-width: thick;
+}
+
+
+
+
 
 /* Services Section
 --------------------------------*/
