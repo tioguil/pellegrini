@@ -1,0 +1,9 @@
+- Atenção na nomenclatura e no endereçamento dos link, todos ja tem seus respectivos nomes e endereço no menu.
+
+- A pagina que estiver aberta tem que ser indentificada no menu ficando da cor laranja. Usar "class="menu-active", verificar 
+se funciona na versão mobile.
+
+- Titulo da pagina: Padrão "Pellegrini | (Nome da pagina sendo que apenas a Primeira letra é Maiuscula")".
+
+- hidden-xs (Usar essa classe faz com que a div suma no modo celular, só curiosidade mesmo).
+- na fan page fazer com que mude a cor ao passar o mouse(laranja).
