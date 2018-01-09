@@ -1,6 +1,3 @@
-Thanks for downloading this theme!
+Site Pellegrini
 
-Theme Name: Imperial
-Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+By Guilherme and Jorjão
