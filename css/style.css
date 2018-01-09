@@ -545,6 +545,66 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-width: thick;
 }
 
+/* Legado Pellegrini Session 1
+--------------------------------*/
+#legado{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/background.png") fixed center center;
+  background-size: cover;
+  padding: 50px 0 60px 0;
+}
+
+#legado .legado-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#legado .legado-text {
+  line-height: 26px;
+  color: #fff;
+}
+
+#legado .legado-text:last-child {
+  margin-bottom: 0;
+}
+
+#legado .fotoLegado {
+  max-width: 100%;
+  padding-right: 15px;
+}
+
+#legado .legen
+
+
+tigi
+
+/* Legado Pellegrini Session 2
+--------------------------------*/
+#legado2{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/background.png") fixed center center;
+  background-size: cover;
+  padding: 50px 0 60px 0;
+}
+
+#legado2 .legado-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#legado2 .legado-text {
+  line-height: 26px;
+  color: #fff;
+}
+
+#legado2 .legado-text:last-child {
+  margin-bottom: 0;
+}
+
+#legado2 .fotoLegado {
+  max-width: 100%;
+  padding-right: 15px; 
+} 
 
 
 
