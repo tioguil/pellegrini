@@ -606,7 +606,37 @@ tigi
   padding-right: 15px; 
 } 
 
+/* about2              
+-------------------------------*/
 
+#about2{
+  background: #fff;
+  padding: 80px;
+}
+
+#about2  .about2-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about2 .about2-text {
+  line-height: 26px;
+  color: #fff;
+}
+
+#about2 .about2-text:last-child {
+  margin-bottom: 0;
+}
+
+#about2 .thumbs img{
+  cursor: pointer;
+}
+
+#about2 img.active{
+  border-style: double;
+  border-width: thick;
+}
 
 
 /* Services Section
@@ -771,18 +801,18 @@ tigi
   transform: translate3d(0, 0, 0);
 }
 
-/* Testimonials Section
+/* topicos Section
 --------------------------------*/
-#testimonials {
+#topicos {
   background: #f6f6f6;
   padding: 80px 0;
 }
 
-#testimonials .profile {
+#topicos .profile {
   text-align: center;
 }
 
-#testimonials .profile .pic {
+#topicos .profile .pic {
   border-radius: 50%;
   border: 6px solid #fff;
   margin-bottom: 15px;
@@ -791,21 +821,21 @@ tigi
   width: 260px;
 }
 
-#testimonials .profile .pic img {
+#topicos .profile .pic img {
   max-width: 100%;
 }
 
-#testimonials .profile h4 {
+#topicos .profile h4 {
   font-weight: 700;
   color: #55b4d8;
   margin-bottom: 5px;
 }
 
-#testimonials .profile span {
+#topicos .profile span {
   color: #333333;
 }
 
-#testimonials .quote {
+#topicos .quote {
   position: relative;
   background: #fff;
   padding: 60px;
@@ -815,7 +845,7 @@ tigi
   border-radius: 5px;
 }
 
-#testimonials .quote b {
+#topicos .quote b {
   display: inline-block;
   font-size: 22px;
   left: -9px;
@@ -823,7 +853,7 @@ tigi
   top: -8px;
 }
 
-#testimonials .quote small {
+#topicos .quote small {
   display: inline-block;
   right: -9px;
   position: relative;
